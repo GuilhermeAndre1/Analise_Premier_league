@@ -14,8 +14,6 @@ A ideia central é ir além do placar final e responder perguntas como:
 
 - Como o desempenho muda ao longo do tempo e entre casa e fora?
 
----
-
 # Fonte dos dados
 
 - Biblioteca Python: soccerdata
@@ -25,8 +23,6 @@ A ideia central é ir além do placar final e responder perguntas como:
 - Competição: Premier League
 
 - Temporada: 2022/23
-
----
 
 # Conceitos utilizados
 
@@ -142,8 +138,6 @@ Comparando os três, é possível separar:
 
 - variância
 
----
-
 # Metodologia
 
 Os dados foram normalizados para o formato “long”, onde cada linha representa um time em uma partida.
@@ -160,8 +154,6 @@ Foram comparados:
 
 - desempenho como mandante vs visitante
 
----
-
 # Principais análises e insights
 
 ## 1. Eficiência ofensiva (Gols vs xG)
@@ -171,7 +163,6 @@ Foram comparados:
 <p align="center">
   <img src="images/gols_vs_xG.png" width="700" alt="Premier League 2022/23 - Gols vs xG">
 </p>
-
 
 ## 2. Forma ofensiva ao longo da temporada (Rolling 5)
 
@@ -189,7 +180,6 @@ Foram comparados:
   <img src="images/pontos_vs_xpts.png" width="700" alt="Pontos vs xPts">
 </p>
 
-
 ## 4. Impacto do mando de campo (Casa vs Fora)
 
 - A análise casa vs fora mostra como o desempenho médio muda de acordo com o local da partida, evidenciando dependência ou consistência dos times.
@@ -198,8 +188,6 @@ Foram comparados:
   <img src="images/casa_vs_fora.png" width="700" alt="Casa vs Fora">
 </p>
 
---- 
-
 # Limitações
 
 - O xG é um modelo estatístico e não captura todos os aspectos do jogo.
@@ -207,8 +195,6 @@ Foram comparados:
 - Não foram considerados fatores como lesões, contexto tático detalhado ou decisões de arbitragem.
 
 - A análise é descritiva, não preditiva.
-
---- 
 
 # Como rodar o notebook
 
